@@ -1,5 +1,4 @@
 import sys
-import re
 
 def findRuler(country):
     lastChar = country.lower()[-1]
