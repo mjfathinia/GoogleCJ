@@ -5,7 +5,7 @@ def findRuler(country):
     lastChar = country.lower()[-1]
     if lastChar == 'y':
         return 'nobody'
-    elif lastChar in ['a','e','i','o','u']:
+    elif lastChar in 'aieou':
         return 'a queen'
     else:
         return 'a king'
